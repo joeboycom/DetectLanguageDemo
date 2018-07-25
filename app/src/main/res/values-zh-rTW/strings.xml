@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">DetectLanguageDemo</string>
+
+    <string name="nation_word">這是台灣</string>
+    <string name="change_button_word_in_settings">去設定頁中轉換語言</string>
+    <string name="test_description">此測試提供兩種語言轉換\n 1.英文(United States) 2.繁體中文(台灣)</string>
+</resources>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.detectlanguagedemo.MainActivity">
+
+    <TextView
+        android:id="@+id/mTestDescriptionTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/test_description"/>
+
+    <Button
+        android:id="@+id/mChangeLanguageInSettingsButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/mTestDescriptionTextView"
+        android:text="@string/change_button_word_in_settings"
+        android:textAllCaps="false"/>
+
+    <TextView
+        android:id="@+id/mNationWordTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mNationPicImageView"
+        android:layout_centerHorizontal="true"
+        android:text=""/>
+
+    <ImageView
+        android:id="@+id/mNationPicImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@android:color/darker_gray"/>
+
+</RelativeLayout>

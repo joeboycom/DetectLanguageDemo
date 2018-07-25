@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">DetectLanguageDemo</string>
+
+    <string name="nation_word">This is an American</string>
+
+    <string name="change_button_word_in_settings">Change Language in Settings</string>
+
+    <string name="change_button_word_in_app">Change Language in App</string>
+
+    <string name="test_description">This test provide two languages to switch.\n 1.English(United States) 2.Traditional Chinese(Taiwan)</string>
+</resources>
